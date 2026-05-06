@@ -15,10 +15,10 @@ jobs:
       - uses: actions/setup-java@v4
         with:
           distribution: 'microsoft'
-          java-version: '17'
-      - uses: subosito/flutter-action@v2.23.0
+          java-version: '21'
+      - uses: subosito/flutter-action@v2.21.0
         with:
-          flutter-version: 3.24.3
+          flutter-version: 3.41.9
       - uses: actions/checkout@v4
         with:
           repository: "yariefw/startpage3"
